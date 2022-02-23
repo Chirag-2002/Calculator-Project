@@ -1,0 +1,53 @@
+*{
+    margin:10px;
+}
+body{
+    background-color:silver;
+    margin: 103px
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.Container{
+    border:1px solid white;
+    height:426px;
+    width: 26vw;
+    margin:auto;
+    background-color:black;
+}
+#form1{
+    display:flex;
+    flex-wrap: wrap;
+}
+input[type=text]{
+    padding:9px;
+    width:19vw;
+}
+input[type=button]{
+    margin: 15px;
+    padding: 3px;
+    width: 3vw;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:black;
+    color:white;
+}
+input[type=button]:hover
+{
+    background-color:white;
+    border-radius: 11px;
+    color:black;
+}
+
+#clearbtn{
+   padding: 3px;
+    width: 21vw;
+    margin: 18px;
+}
+#clearbtn:hover{
+    background-color: white;
+    color: black;
+}
