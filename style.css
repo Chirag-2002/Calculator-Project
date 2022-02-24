@@ -2,7 +2,7 @@
     margin:10px;
 }
 body{
-    background-color:silver;
+    background:url(/WebCode/IMAGES/Background-images.jpg) no-repeat fixed ;
     margin: 103px
 }
 h1{
@@ -25,6 +25,7 @@ h1{
 input[type=text]{
     padding:9px;
     width:19vw;
+    font-size: 15px;
 }
 input[type=button]{
     margin: 15px;
